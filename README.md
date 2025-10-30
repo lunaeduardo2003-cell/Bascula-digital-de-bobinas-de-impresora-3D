@@ -35,9 +35,9 @@ git clone https://github.com/usuario/bascula-digital.git
 - Si el peso está por debajo del límite, se encenderá el LED de alerta.
 
 Comandos importantes (si quieres usar Git):
-git add .
-git commit -m "Agregar proyecto báscula digital"
-git push -u origin main
+- git add .
+- git commit -m "Agregar proyecto báscula digital"
+- git push -u origin main
 
 
 # Cómo funciona internamente
