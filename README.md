@@ -10,6 +10,35 @@ Propósito y alcance:
 - Mostrar resultados en una pantalla LCD.
 - Alertar cuando el peso es menor a un límite establecido.
 - Simulación realizada en Tinkercad (física y electrónica virtual).
+  
+# Requesitos e instalacion
+Requisitos
+- Arduino IDE
+- Librería LiquidCrystal.h
+- Hardware o simulación en Tinkercad:
+- Arduino UNO
+- Pantalla LCD 16x2
+- Sensor FSR (celda de carga)
+- LED de alerta
+# Instalacion
+- Clonar el repositorio:
+git clone https://github.com/usuario/bascula-digital.git
+- Abrir main.ino en Arduino IDE.
+- Instalar la librería LiquidCrystal si no está instalada.
+
+# Cómo usarlo
+- Ejecutar en Arduino IDE
+- Conectar el Arduino o usar la simulación en Tinkercad.
+- Subir el código main.ino.
+- Colocar la bobina sobre el sensor.
+- Observar el peso en la pantalla LCD.
+- Si el peso está por debajo del límite, se encenderá el LED de alerta.
+
+Comandos importantes (si quieres usar Git):
+git add .
+git commit -m "Agregar proyecto báscula digital"
+git push -u origin main
+
 
 # Cómo funciona internamente
 Arquitectura general:
